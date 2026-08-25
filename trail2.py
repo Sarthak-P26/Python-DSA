@@ -1,5 +1,8 @@
-for i in range(1):
-    print("hello")
+dicts = {
 
-a =  [2,3,4,5]
-print(a[len(a) - 1])
+}
+
+dicts[0] = []
+# print(dicts[0/])
+dicts[0].append(32)
+print((dicts[0]))
