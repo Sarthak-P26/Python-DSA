@@ -1,8 +1,9 @@
-dicts = {
+counter = 0
+def inception(counter):
+    if counter > 3:
+        return "done"
+    counter+=1 
+    return inception(counter)
 
-}
-
-dicts[0] = []
-# print(dicts[0/])
-dicts[0].append(32)
-print((dicts[0]))
+result = inception(counter)
+print(result)
